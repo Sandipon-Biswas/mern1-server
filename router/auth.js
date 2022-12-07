@@ -86,7 +86,7 @@ try {
  if (!isMatch ) {
   return res.status(400).json({error:"error user"});
  } else {
-  res.json({ message: "user login successfuly" });
+  res.json({ message: "user login successfuly",token:token  });
  }
  
 } catch (error) {
